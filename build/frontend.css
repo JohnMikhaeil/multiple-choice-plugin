@@ -1,0 +1,123 @@
+/*!******************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/frontend.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************/
+.block-frontend-mcp {
+  background-color: #ebebeb;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.03);
+  border: 1px solid #dbdbdb;
+  padding: 20px;
+  border-radius: 4px;
+  margin-bottom: 35px;
+}
+.block-frontend-mcp p {
+  font-size: 1.55rem;
+  margin: 0 0 15px 0 !important;
+}
+.block-frontend-mcp ul {
+  margin: 0;
+  padding: 0;
+}
+@media screen and (min-width: 767px) {
+  .block-frontend-mcp ul {
+    margin: 0 -20px 0 0;
+    display: flex;
+  }
+}
+.block-frontend-mcp li {
+  vertical-align: middle;
+  font-size: 0.93rem;
+  flex: 1;
+  margin: 0 0 15px 0;
+  padding: 0;
+  list-style: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+@media screen and (min-width: 767px) {
+  .block-frontend-mcp li {
+    margin: 0 20px 0 0;
+  }
+}
+.block-frontend-mcp li:hover {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+.block-frontend-mcp li svg {
+  fill: rgb(0, 158, 47);
+  margin-right: 5px;
+  margin-bottom: -5px;
+}
+.block-frontend-mcp .no-click {
+  cursor: auto;
+}
+.block-frontend-mcp .no-click:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.block-frontend-mcp .fade-incorrect {
+  cursor: auto;
+  opacity: 0.25;
+}
+.block-frontend-mcp .fade-incorrect svg {
+  fill: rgb(235, 0, 0);
+}
+.block-frontend-mcp .correct-message,
+.block-frontend-mcp .incorrect-message {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(156, 226, 177);
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.35);
+  transition: all 0.33s ease-out;
+  transform-origin: 50% 50%;
+}
+.block-frontend-mcp .correct-message--visible,
+.block-frontend-mcp .incorrect-message--visible {
+  animation: 2.6s showModal;
+}
+.block-frontend-mcp .correct-message svg,
+.block-frontend-mcp .incorrect-message svg {
+  margin-right: 12px;
+}
+.block-frontend-mcp .correct-message p,
+.block-frontend-mcp .incorrect-message p {
+  margin: 0 !important;
+}
+.block-frontend-mcp .incorrect-message {
+  background-color: rgb(224, 176, 176);
+}
+
+@keyframes showModal {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.2);
+  }
+  15% {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+  }
+  85% {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.2);
+  }
+}
+
+/*# sourceMappingURL=frontend.css.map*/

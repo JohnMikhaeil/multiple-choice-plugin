@@ -1,0 +1,36 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/index.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+.block-editor-style {
+  padding: 20px;
+  border: 1px solid #d6d6d6;
+  background-color: #f1f1f1;
+}
+.block-editor-style .correct-answer-star {
+  color: #fcd700;
+}
+.block-editor-style .correct-answer-star:hover {
+  animation: pulse;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.block-editor-style .delete-button {
+  color: #fc0000;
+}
+.block-editor-style .delete-button:hover {
+  color: #8b0000;
+}
+
+@keyframes pulse {
+  0% {
+    scale: 1;
+  }
+  50% {
+    scale: 1.25;
+  }
+  100% {
+    scale: 1;
+  }
+}
+
+/*# sourceMappingURL=index.css.map*/
